@@ -19,7 +19,7 @@ See `README.md`. Short version: `src/content/links.ts`, `projects.ts` (including
 ## Repo and deploy
 Repository: https://github.com/SheeshDarth/priyanka-portfolio (public, branch `main`). It was created under the GitHub account that was logged in on the build machine; transfer it to Priyanka7468 whenever you like (GitHub → Settings → Transfer).
 
-**Live (Vercel production):** https://priyanka-portfolio-peach.vercel.app, project `priyanka-portfolio` in the `siddharthbuildsai-4541s-projects` team. Deployed 2026-11-05 with `vercel deploy --prod` from this folder.
+**Live (Vercel production):** https://priyanka-h-portfolio.vercel.app (also https://priyanka-portfolio-peach.vercel.app). `priyanka-portfolio.vercel.app` was requested but is owned by another Vercel account. `priyanka-h-portfolio.vercel.app` was added as a project domain, so it follows future production deploys. Project `priyanka-portfolio` in the `siddharthbuildsai-4541s-projects` team. Deployed 2026-11-05 with `vercel deploy --prod` from this folder.
 
 The Vercel project is **not** connected to the GitHub repo yet (Vercel reported the account needs a GitHub login connection), so pushes do not redeploy automatically. To update the live site run `npm run build && npx playwright test` and then `vercel deploy --prod`, or connect the repo in the Vercel dashboard (Project → Settings → Git).
 
