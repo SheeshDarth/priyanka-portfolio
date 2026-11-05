@@ -17,4 +17,6 @@ Routes: `/`, `/work`, `/work/coorg-coffee-crafted`, `/work/campaignos`, `/work/v
 See `README.md`. Short version: `src/content/links.ts`, `projects.ts` (including `screens`), `media.ts`, `site.ts`, then `npm run build && npm test`.
 
 ## Repo and deploy
-The project is a git repository with local commits. Pushing to GitHub and deploying to Vercel are separate steps that need your confirmation of the account and visibility.
+Repository: https://github.com/SheeshDarth/priyanka-portfolio (public, branch `main`). It was created under the GitHub account that was logged in on the build machine; transfer it to Priyanka7468 whenever you like (GitHub → Settings → Transfer).
+
+Not deployed yet. For Vercel: import the repo (framework preset Next.js, no environment variables needed). Set `site.domain` in `src/content/site.ts` once a domain exists so indexing, canonical URLs and the sitemap switch on.
