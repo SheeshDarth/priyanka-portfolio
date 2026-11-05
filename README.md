@@ -25,7 +25,8 @@ npm run qa:shots     # full-page screenshots into docs/qa/
 | Experience, skills, education, awards | `src/content/profile.ts` |
 | Approved photographs | `src/content/media.ts` + `public/images/` |
 | Project screenshots | `screens` in `projects.ts`, files in `public/images/projects/` |
-| Résumé download | `public/downloads/` + `links.resume` |
+| Résumé download | `public/downloads/Priyanka_H_Resume.pdf` + `links.resume` |
+| Résumé source | `resume/resume.html`; run `npm run resume` to rebuild the PDF (needs Google Chrome; also copies it to `public/downloads/`) |
 | Design tokens | `src/app/globals.css` (`@theme`) |
 | Client to-do list | `client-input.md`, `docs/CONTENT_NEEDED.md` |
 | Claim-by-claim evidence | `docs/CONTENT_EVIDENCE.md` |
