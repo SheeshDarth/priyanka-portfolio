@@ -1,0 +1,15 @@
+node_modules
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+test-results
+playwright-report
+.env*
+!.env.example
+.DS_Store
+.claude/
+docs/qa/
+# Source copies kept locally, not part of the site
+/Priyanka_H_Resume_1page.pdf
+/PRIYANKA_FDE_BIKER_PORTFOLIO_CLAUDE_CODE_MASTER_PROMPT.md
