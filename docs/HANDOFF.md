@@ -19,4 +19,8 @@ See `README.md`. Short version: `src/content/links.ts`, `projects.ts` (including
 ## Repo and deploy
 Repository: https://github.com/SheeshDarth/priyanka-portfolio (public, branch `main`). It was created under the GitHub account that was logged in on the build machine; transfer it to Priyanka7468 whenever you like (GitHub → Settings → Transfer).
 
-Not deployed yet. For Vercel: import the repo (framework preset Next.js, no environment variables needed). Set `site.domain` in `src/content/site.ts` once a domain exists so indexing, canonical URLs and the sitemap switch on.
+**Live (Vercel production):** https://priyanka-portfolio-peach.vercel.app, project `priyanka-portfolio` in the `siddharthbuildsai-4541s-projects` team. Deployed 2026-11-05 with `vercel deploy --prod` from this folder.
+
+The Vercel project is **not** connected to the GitHub repo yet (Vercel reported the account needs a GitHub login connection), so pushes do not redeploy automatically. To update the live site run `npm run build && npx playwright test` and then `vercel deploy --prod`, or connect the repo in the Vercel dashboard (Project → Settings → Git).
+
+The site is `noindex` and `robots.txt` disallows crawling until `site.domain` is set in `src/content/site.ts`. Add a custom domain in Vercel (Project → Settings → Domains), set `site.domain`, redeploy, and indexing, canonical URLs and the sitemap switch on.
